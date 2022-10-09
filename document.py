@@ -23,10 +23,7 @@ class Documentos(ABC):
         self.__paginas= Paginas
         self.__titulo= Titulo
         
-    
-    def Documentos(self):
-        pass
-    
+
     def categoria(self, categoria):
         self.__Categoria= categoria
         
@@ -34,3 +31,8 @@ class Documentos(ABC):
     def getCategoria(self):
         return self.__Categoria
         
+    def __str__(self):
+        return  f"nombre: {self.__Anno}, edicion: {self.__Edicion}, titulo: {self.__titulo},"
+    
+    
+  
