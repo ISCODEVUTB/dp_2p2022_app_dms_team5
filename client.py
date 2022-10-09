@@ -7,11 +7,4 @@ def Cliente(factory: AbsDocumentFact):
 
     return factory_product
 
-datos_1 = {'Anno': 2001,
-"Autores": ['Juan Daniel','Gian Valdiris'],
-"Edicion": "LAPORTE","Idiomas":["Español"],
-"Isbn":"NOSE",
-"Paginas": 500,
-"Titulo":"Cincuenta algoritmos profesionales", 
-"format": [format.audio, format.digital]}
 

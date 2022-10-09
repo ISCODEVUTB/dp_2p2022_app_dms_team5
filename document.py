@@ -34,13 +34,3 @@ class Documentos(ABC):
     def getCategoria(self):
         return self.__Categoria
         
-    def __str__(self):
-        return  f"nombre: {self.__Anno}, edicion: {self.__Edicion}, titulo: {self.__titulo},"
-    
-    
-    def __eq__(self, __o: object) -> bool:
-        pass
-    
-    def __hash__(self) -> int:
-        return super().__hash__()
-
