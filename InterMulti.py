@@ -6,3 +6,11 @@ class IMultimedia(ABC):
     def ItemMultimedia(self)->str:
         pass
     
+
+class IOnline(ABC):
+
+    @abstractmethod
+    def itemOnline(self)->str:
+        pass
+
+    
