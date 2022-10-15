@@ -35,6 +35,7 @@ class TestDocumentos(unittest.TestCase):
             "format": [format.audio, format.digital]}
     
     def test_libro(self):
+        print("test libro")
         book_one = Libro(2001,["Gabriel Garcia Marquez"],"LAPORTE",format.digital,["Español"],"NOSE",192,"Fundamento Algoritmo")
         self.assertEqual(book_one.__str__(), "nombre: 2001, edicion: LAPORTE, titulo: Fundamento Algoritmo,")
 
